@@ -1,15 +1,31 @@
 #include <iostream>
 #include <string>
-#include "Rec.h"
+#include "Katren.h"
 
 using namespace std;
 
 int main() {
 
-	Rec rec1("sok");
-	Rec rec2("srp");
+	Stih s1;
+	Stih s2;
+	Stih s3;
+	Stih s4;
 
-	cout << (rec1^rec2) << endl;
+	cin >> s1;
+	cin >> s2;
+	cin >> s3;
+	cin >> s4;
+
+	Katren katren;
+
+	katren += s1;
+	katren += s2;
+	katren += s3;
+	katren += s4;
+
+	katren(1, 2);
+
+	cout << katren;
 
 	return 0;
 }

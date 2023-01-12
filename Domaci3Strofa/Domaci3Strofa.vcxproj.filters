@@ -24,6 +24,15 @@
     <ClInclude Include="Rec.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Stih.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strofa.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Katren.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Skup.cpp">
@@ -33,6 +42,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Rec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stih.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strofa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Katren.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

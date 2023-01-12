@@ -13,7 +13,7 @@ public:
 
 	Rec(string s) : tekst(s) {}
 
-	int operator+() { return size(); }
+	int operator+() const { return size(); }
 	int operator~() const;
 	int operator()(int) const;
 	friend istream& operator>>(istream&, Rec&);
